@@ -1,0 +1,98 @@
+.margin-vertical-s {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.margin-vertical-m {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.margin-vertical-l {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.margin-vertical-xl {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.margin-above-xxl {
+  margin-top: 50px; }
+
+html {
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'SFUIText', Helvetica;
+  letter-spacing: 0.65pt; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3 {
+  font-family: 'Brown', Helvetica; }
+
+h1 {
+  letter-spacing: 0.05em;
+  font-size: 40px;
+  font-weight: normal; }
+
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 5.5pt; }
+
+a {
+  color: #00E7EE;
+  border-bottom: 5px solid #FAFF9D;
+  text-decoration: none; }
+
+.social {
+  font-family: 'MonoSocial';
+  font-size: 50px;
+  border-color: transparent; }
+  .social:hover {
+    color: #9013FE; }
+
+.width-sm {
+  width: 640px;
+  margin: 0 auto; }
+
+section {
+  padding: 100px 20px; }
+  section p {
+    line-height: 1.9em;
+    font-weight: 100; }
+  section.dark p {
+    color: white; }
+  section.intro {
+    text-align: left;
+    background-color: #9013FE;
+    background: #9013FE url("/images/who-we-are-bg.jpg") no-repeat;
+    background-size: cover; }
+  section h1 {
+    color: white;
+    font-family: 'Brown', Helvetica;
+    background-color: #50E3C2;
+    display: inline-block;
+    padding: 0px 10px; }
+
+.color-pink {
+  color: pink; }
+
+.color-grey {
+  color: grey; }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-small {
+  font-size: small; }
+
+.btn {
+  border: 2px solid black;
+  padding: 0px 50px;
+  display: inline-block;
+  border-radius: 6px;
+  text-transform: uppercase;
+  line-height: 70px;
+  font-weight: 600;
+  letter-spacing: 3pt; }

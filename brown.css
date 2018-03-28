@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Brown';
+    src: url('/fonts/brown-regular.woff2') format('woff2'),
+        url('/fonts/brown-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
