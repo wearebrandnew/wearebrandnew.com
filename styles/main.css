@@ -17,6 +17,20 @@
 .margin-above-xxl {
   margin-top: 50px; }
 
+.margin-below-m {
+  margin-bottom: 20px; }
+
+.margin-below-l {
+  margin-bottom: 30px; }
+
+@media only screen and (max-width: 600px) {
+  .mobile-fill {
+    width: 100% !important;
+    clear: both;
+    display: block;
+    margin-left: 0 !important;
+    margin-right: 0 !important; } }
+
 html {
   text-align: center;
   padding-top: 40px;
@@ -53,7 +67,7 @@ a {
     color: #9013FE; }
 
 .width-sm {
-  width: 640px;
+  max-width: 640px;
   margin: 0 auto; }
 
 section {
